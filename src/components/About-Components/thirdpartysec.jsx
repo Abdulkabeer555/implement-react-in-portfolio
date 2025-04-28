@@ -1,5 +1,5 @@
 import React from "react";
-import ChooseImg from'../../assets/images/about/choose4.jpg'
+import ChooseImg from '../../assets/images/about/choose4.jpg';
 
 const StatCard = ({ iconClass, count, label }) => {
   return (
@@ -37,12 +37,7 @@ const ThirdPartySection = () => {
 
       <div className="container choose2-service my-30">
         <div className="row">
-          <div
-            className="col-lg-6 col-md-6 why-choose pt-20"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
+          <div className="col-lg-6 col-md-6 why-choose pt-20">
             <span className="text-white">WHY CHOOSE JINNAH PUBLIC SCHOOL</span>
             <div className="choose-line bg-white"></div>
             <h2 className="pt-20 text-white">Pioneering Quality Education</h2>
@@ -54,14 +49,8 @@ const ThirdPartySection = () => {
             </p>
           </div>
 
-          <div
-            className="col-lg-6 col-md-6 pt-20"
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-duration="500"
-          >
-            <img src={ChooseImg} alt="" className="choose-img2"
-            />
+          <div className="col-lg-6 col-md-6 pt-20">
+            <img src={ChooseImg} alt="" className="choose-img2" />
           </div>
         </div>
       </div>
