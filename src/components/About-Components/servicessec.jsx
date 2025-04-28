@@ -1,28 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import ChooseImg from '../../assets/images/about/choose-img.webp';
 
 const ChooseOurServices = () => {
   const [exploreLink, setExploreLink] = useState('#');
 
-
+  
   return (
     <div className="container choose-service my-20 mb-250">
       <div className="row">
-        <div
-          className="col-lg-6 col-md-6 choose-img pt-20"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine" >
-            
+        <div className="col-lg-6 col-md-6 choose-img pt-20">
           <img src={ChooseImg} alt="Choose Our Services" />
         </div>
 
-        <div
-          className="col-lg-6 col-md-6 why-choose pt-20 pl-40"
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-duration="500" >
-            
+        <div className="col-lg-6 col-md-6 why-choose pt-20 pl-40">
           <span className="text-yellow">ABOUT JINNAH PUBLIC SCHOOL</span>
           <div className="choose-line"></div>
           <h2 className="pt-20">Why Choose Jinnah Public School</h2>
