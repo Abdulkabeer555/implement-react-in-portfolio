@@ -4,9 +4,10 @@ import ChooseImg from '../../assets/images/about/choose-img.webp';
 const ChooseOurServices = () => {
   const [exploreLink, setExploreLink] = useState('#');
 
-  
+
   return (
-    <div className="container choose-service my-20 mb-250">
+
+<div className="container choose-service my-20 mb-250">
       <div className="row">
         <div className="col-lg-6 col-md-6 choose-img pt-20">
           <img src={ChooseImg} alt="Choose Our Services" />
